@@ -1,0 +1,485 @@
+section{
+    height: 850px;
+    width: 100%;
+}
+
+.top-side{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.doctor{
+    height: 85%;
+}
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    color: var(--text-color);
+} 
+
+.left-side > h1{
+    position: relative;
+    top: 130px;
+    left: 80px;
+    font-size: 40px;
+    color: var(--text-titles);
+}
+
+.attributes-box{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 170px;
+    left: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.attributes-box > div{
+    color: #FFD012;
+    background-color: #FFFAEB;
+}
+
+.schedule-box{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: 170px;
+    left: 40px;
+    position: relative;
+    top: 215px;
+    left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.schedule-box > div{
+    margin-right: 10px;
+}
+
+.features {
+    display: inline;
+    position: relative;
+    margin-left: 10px;
+    top: 190px;
+    left: 80px;
+    font-size: 20px;
+}
+
+
+
+.virus-text{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    font-size: 25px;
+}
+
+.scheduled-text{
+    position: relative;
+    top: 250px;
+    left: 160px;
+    font-size: 25px;
+}
+
+.bottom-side{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-side > img{
+    width: 150px;
+    height: 55px;
+}
+
+.banner{
+    background-color: #FFFFFF;
+    width: 55%;
+    height: 85px;
+    border-radius: 5px;
+    opacity: 0.9;
+    position: absolute;
+    box-shadow: 3px 3px 15px var(--shadow-color);
+    top: 500px;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner > div{
+    width: 20%;
+    height: 70%;
+    padding: 5px;
+    position: relative;
+}
+
+.banner > div > h4{
+    display: inline;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.banner > div > p{
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.back-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: var(--back-icons);
+    color: var(--icon-color);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    height: 50%;
+    width: 15%;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.submit-btn:hover{
+    filter: brightness(125%);
+    border: 2px dotted #FFFFFF;
+}
+
+.submit-btn:active{
+    filter: drop-shadow(2px 2px 3px black)
+}
+
+
+/*-------Section Two----------*/
+
+.top-side-two{
+    width: 100%;
+    height: 25%;
+}
+
+.bottom-side-two{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-side-two > div{
+    border: 2px solid #FAFAFF;
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.bottom-side-two > div:nth-child(2){
+    box-shadow: 3px 3px 15px var(--shadow-color);
+}
+
+.info-title{
+    font-size: 35px;
+    color: var(--text-titles);
+    padding: 20px;
+}
+
+.info-text{
+    padding: 0 20px;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.test{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--back-icons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test > i{
+    font-size: 35px;
+    color: var(--icon-color);
+}
+
+.vaccine-info{
+    margin-left: 4%;
+    height: 100%;
+    width: 40%;
+}
+
+.vaccine-subtitle{
+    color: var(--text-titles);
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.vaccine-text{
+    font-size: 25px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+
+
+/*-------Section Three----------*/
+
+.preparation-info{
+    margin-left: 50%;
+    height: 25%;
+    width: 40%;
+}
+
+.preparation-subtitle{
+    color: var(--text-titles);
+    font-size: 35px;
+    padding: 10px;
+}
+
+.preparation-text{
+    font-size: 25px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.sec3-area-container{
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+
+.sec3-left-side{
+    background-color: var(--background-color);
+    width: 50%;
+    height: 100%;
+}
+
+.img2-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.patient{
+    height: 120%;
+}
+
+.sec3-right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-titles);
+    font-size: 25px;
+}
+
+.advices-container{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    border: 1px solid var(--shadow-color);
+}
+
+.advices-container > h4{
+    margin-left: 30px;
+}
+
+.advices-container > p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -30px;
+    color: var(--text-color);
+}
+
+.advices-container:nth-child(2){
+    height: 30%;
+    box-shadow: 3px 3px 15px var(--shadow-color);
+}
+
+.advices-back{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--back-icons);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advices-back > i{
+    font-size: 15px;
+}
+
+.second-back{
+    position: absolute;
+    right: 100px;
+}
+
+
+/*-------Section Four----------*/
+
+.emergency-info{
+    width: 100%;
+    height: 20%;
+}
+
+.commu-container{
+    width: 100%;
+    height: 65%;
+    display: flex;
+}
+
+.commu-left{
+    width: 50%;
+    height: 100%;
+}
+
+.square-container{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.square-container > div{
+    border: 2px solid #FAFAFF;
+    height: 250px;
+    width: 250px;
+}
+
+.commu-right{
+    background-color: var(--background-color);
+    width: 50%;
+    height: 100%;
+}
+
+.img3-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.doctor3{
+    height: 120%;
+}
+
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square:nth-child(2){
+    box-shadow: 10px 15px 10px var(--shadow-color);
+}
+
+.type-info{
+    padding: 20px 0 0 20px;
+}
+
+.square-container-btn{
+    width: 80%;
+    height: 30%;
+    background-color: #F1F5FF;
+    border: none;
+    border-radius: 5px;
+    color: var(--btn-color);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.chat-btn{
+    background-color: var(--btn-color);
+    color: #FFFFFF;
+}
+
+.square-container-btn:hover{
+    filter: brightness(125%);
+}
+
+.square-container-btn:active{
+    filter: drop-shadow(2px 2px 3px black)
+}
+
+.square-container-btn:hover{
+    border: 1px solid var(--btn-color);
+}
+
+.emergency-info{
+    margin-left: 4%;
+    height: 25%;
+    width: 43%;
+}
+
+.emergency-subtitle{
+    color: var(--text-titles);
+    font-size: 35px;
+    padding: 10px;
+}
+
+.emergency-text{
+    font-size: 25px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.container-l > h2{
+    color: var(--btn-color);
+}
+
+.container-r > ul > h2{
+    color: var(--text-titles);
+}
